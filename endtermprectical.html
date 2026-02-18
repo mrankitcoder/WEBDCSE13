@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback Form</title>
+<style>
+body{
+    font-family: Arial;
+}
+
+.form-box{
+    width:350px;
+    margin:50px auto;
+    padding:10px;
+    border:1px solid black;
+}
+
+input,textarea,select{
+    width:100%;
+    margin:5px 0;
+}
+
+textarea{
+    height:80px;
+}
+
+.btn{
+    width:100%;
+}
+</style>
+</head>
+
+<body>
+
+<div class="form-box">
+  <h2>Feedback Form</h2>
+
+<form>
+
+Name:
+<input type="text" required>
+
+Email:
+<input type="email" required>
+
+Rating:
+<select required>
+<option value="">Select</option>
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select>
+
+Comments:
+<textarea required></textarea>
+
+<input type="submit" value="Submit" class="btn">
+
+</form>
+</div>
+
+</body>
+</html>
